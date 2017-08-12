@@ -1,0 +1,63 @@
+@media all and (max-width: 540px) {
+    .medium-nav {
+        display: none;
+    }
+
+	.navbar {
+		height: 45px;
+	}
+	
+	.navbar i {
+		color: #FFFFFF;
+	}
+
+	.navbar img {
+		height: 80px;
+		position: absolute;
+	}
+
+	.nav-mobile {
+		display: flex;
+		justify-content: space-between;
+		font-size: 35px;
+		color: #FFFFFF;
+		padding: 5px 10px 5px 5px;
+	}
+
+	#title {
+		font-family: 'Impact', sans-serif;
+		text-transform: uppercase;
+	    padding-left: 60px;
+	    font-size: 30px;
+	}
+
+	#mobile-menu {
+		background-color: #126131;
+		padding: 1px;
+		text-align: center;
+		font-size: 25px;
+		display: none;
+	}
+
+	#mobile-menu ul {
+		padding-left: 0;
+		list-style-type: none;
+	}
+
+	#mobile-menu li {
+		padding: 30px 0;
+	}
+
+	#mobile-menu a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.underline {
+		border-bottom: 2px solid #40ae49;
+	}
+
+	.mobile-menu:hover {
+		background-color: #40ae49;
+	}
+}

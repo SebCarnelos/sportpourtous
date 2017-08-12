@@ -1,0 +1,51 @@
+@media all and (min-width: 541px)
+{
+    .nav-mobile {
+        display: none;
+    }
+
+    #mobile-menu {
+    	display: none;
+    }
+
+    .navbar img {
+    	height: 100px;
+    	position: absolute;
+    	margin-top: 70px;
+        margin-left: 5px;
+    }
+
+    .navbar i {
+        color: #126131;
+        font-size: 25px;
+        letter-spacing: 0.5em;
+    }
+
+    .navbar i:hover {
+        color: #FFFFFF;
+    }
+
+    .med-menu {
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+        padding: 5px 5px 5px 115px;
+    }
+
+    #title {
+        font-family: 'Impact', sans-serif;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+
+    a {
+    	color: #FFFFFF;
+    	text-decoration: none;
+    	font-size: 30px;
+    }
+
+    a:hover {
+        color: #126131;
+    }
+}

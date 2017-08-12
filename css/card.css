@@ -1,0 +1,41 @@
+.card {
+    background-color: #FFFFFF;
+    width: 310px;
+    padding: 0 0 1px 0;
+    margin-bottom: 25px;
+}
+
+.card h1 {
+    font-size: 1.8em;
+}
+
+.card-title {
+    background-color: #126131;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.card-pic {
+    height: 310px; 
+    background-size: cover !important;
+}
+
+.card-content {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.card-button {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #40ae49;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5;
+}
+
+.card-button:hover {
+    background-color: #126131;
+}
