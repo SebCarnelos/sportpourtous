@@ -12,8 +12,9 @@
 	}
 
 	.navbar img {
-		height: 80px;
+		height: 70px;
 		position: absolute;
+		padding-top: 5px;		
 	}
 
 	.nav-mobile {
@@ -28,11 +29,11 @@
 		font-family: 'Impact', sans-serif;
 		text-transform: uppercase;
 	    padding-left: 60px;
-	    font-size: 30px;
+	    font-size: 0.81em;
 	}
 
 	#mobile-menu {
-		background-color: #126131;
+		background-color: rgba(18, 97, 49, 0.90);
 		padding: 1px;
 		text-align: center;
 		font-size: 25px;
