@@ -13,7 +13,7 @@ body {
 	margin: 0;
 }
 
-.navbar {
+#navbar {
 	background-color: #40ae49;
 	border-bottom: 3px solid #126131;
 	width: 100%;

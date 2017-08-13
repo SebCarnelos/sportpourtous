@@ -8,20 +8,20 @@
     	display: none;
     }
 
-    .navbar img {
+    #navbar img {
     	height: 100px;
     	position: absolute;
-    	margin-top: 70px;
+        margin-top: 108px;
         margin-left: 5px;
     }
 
-    .navbar i {
+    #navbar i {
         color: #126131;
-        font-size: 25px;
-        letter-spacing: 0.5em;
+        font-size: 1.2em;
+        letter-spacing: 1em;
     }
 
-    .navbar i:hover {
+    #navbar i:hover {
         color: #FFFFFF;
     }
 
