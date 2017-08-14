@@ -3,20 +3,30 @@
     width: 310px;
     padding: 0 0 1px 0;
     margin-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 2px;
+}
+
+.card:hover {
     box-shadow: 0px 1px 10px #000103;
 }
 
-.card h1 {
-    font-size: 1.8em;
+.card-link {
+    text-decoration: none;
+    color: #000103;
 }
 
 .card-title {
     background-color: #126131;
     color: #FFFFFF;
+    font-size: 1.8em;
     text-align: center;
-    padding: 1px 0;
-    border-radius: 5px 5px 0 0;
+    padding: 15px 0;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 1px solid #FFFFFA;
+}
+
+.card-title:hover {
+    background-color: #40ae49;
 }
 
 .card-pic {
@@ -36,7 +46,7 @@
     color: #FFFFFF;
     margin: 5px;
     padding: 10px;
-    border-radius: 5;
+    border-radius: 2px;
 }
 
 .card-button:hover {
