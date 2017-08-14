@@ -17,16 +17,25 @@ body {
 	background-color: #40ae49;
 	border-bottom: 3px solid #126131;
 	width: 100%;
-	position: fixed;
+	position: fixed; 
 }
 
 .banner {
 	height: 80vh;
 	margin:0;
 	padding:0;
-	background:url(../img/banner.jpg) no-repeat center center fixed; 
-	background-size:cover; 
+	/* background:url(../img/banner.jpg) no-repeat center center fixed;  */
+	/* background-size:cover;  */
 }
+
+#video-background {
+	/*  making the video fullscreen  */
+	  z-index: -100;
+	  position: relative;
+	  top: 50%;
+	  left: 50%;
+	  transform: translateY(-50%) translateX(-50%);
+	}
 
 .catchline {
 	padding: 25px 10px;
@@ -35,6 +44,7 @@ body {
 	font-size: 2em;
 	text-align: center;
 	vertical-align: middle;
+	position: center;
 }
 
 .witness {
