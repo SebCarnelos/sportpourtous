@@ -19,11 +19,12 @@ var setSkrollr = function($el, data) {
       $el.attr('data-' + px, css);
   }
 }
-
-jQuery(function($) {
-  setSkrollr($('#logorise'), [[0, 'transform:translateY(-100%)'], [0, 'transform:translateY(-37px)'], [600, 'transform:translateY(-100%)']]);
-  
-  skrollr.init({
-      smoothScrolling: false
+if ( $(window).width() > 540 ) {
+  jQuery(function($) {
+    setSkrollr($('#logorise'), [[0, 'transform:translateY(-100%)'], [0, 'transform:translateY(-37px)'], [600, 'transform:translateY(-100%)']]);
+    
+    skrollr.init({
+        smoothScrolling: false
+    });
   });
-});
+  }
