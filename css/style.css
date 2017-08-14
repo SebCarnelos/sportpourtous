@@ -8,9 +8,9 @@
 @import url(footer.css);
 
 body {
-	background-color: grey;
+	background-color: #515052;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: black;
+	color: #000103;
 	font-size: 15px;
 	margin: 0;
 }
@@ -24,7 +24,7 @@ body {
 
 .catchline {
 	padding: 25px 10px;
-	background-color: #FFFFFF;
+	background-color: #FFFFFA;
 	color: #126131;
 	font-size: 2em;
 	text-align: center;
@@ -34,5 +34,5 @@ body {
 
 .witness {
 	height: 40vh;
-	background-color: #FFFFFF;
+	background-color: #FFFFFA;
 }
