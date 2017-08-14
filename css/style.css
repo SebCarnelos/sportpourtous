@@ -22,15 +22,6 @@ body {
 	position: fixed; 
 }
 
-#video-background {
-	/*  making the video fullscreen  */
-	  z-index: -100;
-	  position: fixed;
-	  top: 50%;
-	  left: 50%;
-	  transform: translateY(-50%) translateX(-50%);
-	}
-
 .catchline {
 	padding: 25px 10px;
 	background-color: #FFFFFF;

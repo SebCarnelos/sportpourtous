@@ -1,7 +1,14 @@
 @media all and (max-width: 540px) {
     .banner {
-        height: 75vh;
+        height: 37vh;
         margin:0;
         padding:0;
     }
+
+    #video-background {
+        position: fixed;
+        max-width: 100%;
+        top: 40px;
+        z-index: -100;
+        }
 }
