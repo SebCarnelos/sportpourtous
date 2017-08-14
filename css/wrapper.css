@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: #C4C4C0;
+    background-color: #E8E8E3;
     padding: 25px 25px 0 25px;
     display: flex;
 }
@@ -9,6 +9,7 @@
     .wrapper {
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
 }
 
