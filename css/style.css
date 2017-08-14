@@ -1,5 +1,7 @@
 @import url(mobile-menu.css);
 @import url(stand-menu.css);
+@import url(mobile-ban.css);
+@import url(desktop-ban.css);
 @import url(card.css);
 @import url(wrapper.css);
 @import url(coach.css);
@@ -20,18 +22,10 @@ body {
 	position: fixed; 
 }
 
-.banner {
-	height: 80vh;
-	margin:0;
-	padding:0;
-	/* background:url(../img/banner.jpg) no-repeat center center fixed;  */
-	/* background-size:cover;  */
-}
-
 #video-background {
 	/*  making the video fullscreen  */
 	  z-index: -100;
-	  position: relative;
+	  position: fixed;
 	  top: 50%;
 	  left: 50%;
 	  transform: translateY(-50%) translateX(-50%);

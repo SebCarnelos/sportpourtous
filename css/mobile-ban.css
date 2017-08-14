@@ -1,0 +1,7 @@
+@media all and (max-width: 540px) {
+    .banner {
+        height: 75vh;
+        margin:0;
+        padding:0;
+    }
+}

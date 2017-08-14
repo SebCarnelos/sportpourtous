@@ -1,0 +1,7 @@
+@media all and (min-width: 541px) {
+    .banner {
+        height: 87vh;
+        margin:0;
+        padding:0;
+    }
+}
