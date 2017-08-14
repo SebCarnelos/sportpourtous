@@ -29,13 +29,13 @@
 		font-family: 'Impact', 'Anton', sans-serif;
 		text-transform: uppercase;
 		padding-left: 60px;
-		margin-top: 0px;
 	    font-size: 0.81em;
 	}
-
+	
 	#mobile-menu {
 		background-color: rgba(18, 97, 49, 0.90);
 		padding: 1px;
+		margin-top: 0px;
 		text-align: center;
 		font-size: 25px;
 		display: none;
