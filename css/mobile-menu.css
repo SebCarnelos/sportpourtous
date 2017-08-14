@@ -35,7 +35,7 @@
 	#mobile-menu {
 		background-color: rgba(18, 97, 49, 0.90);
 		padding: 1px;
-		margin-top: 0px;
+		margin-top: -5px;
 		text-align: center;
 		font-size: 25px;
 		display: none;
