@@ -1,0 +1,34 @@
+.banner {
+    margin:0;
+    padding:0;
+    background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%); 
+}
+
+/* Desktop */
+@media all and (max-width: 540px) {
+    .banner {
+        height: 37vh;
+    }
+
+    #video-background {
+        position: fixed;
+        max-width: 100%;
+        top: 40px;
+        z-index: -100;
+        }
+}
+
+/* Desktop */
+@media all and (min-width: 541px) {
+    .banner {
+        height: 87vh;
+    }
+
+    #video-background {
+        position: fixed;
+        max-width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: -100;
+        }
+}
