@@ -1,9 +1,10 @@
 @import url(mobile-menu.css);
 @import url(stand-menu.css);
 @import url(banner.css);
-@import url(card.css);
 @import url(wrapper.css);
+@import url(card.css);
 @import url(coach.css);
+@import url(contact.css);
 @import url(footer.css);
 
 body {
