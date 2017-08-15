@@ -29,7 +29,8 @@
 		font-family: 'Impact', 'Anton', sans-serif;
 		text-transform: uppercase;
 		padding-left: 60px;
-	    font-size: 0.81em;
+		font-size: 0.65em;
+		padding-top: 5px;
 	}
 	
 	#mobile-menu {
