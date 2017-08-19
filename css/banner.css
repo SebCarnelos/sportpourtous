@@ -1,6 +1,10 @@
 #banner {
     margin: 0;
     padding: 0;
+}
+
+#video-background:before {
+    content: '';
     background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%); 
 }
 
@@ -12,7 +16,7 @@
     z-index: -100;
 }
 
-/* Desktop */
+/* Mobile */
 @media all and (max-width: 540px) {
     #banner {
         height: 37vh;
