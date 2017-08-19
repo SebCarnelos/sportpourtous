@@ -4,20 +4,82 @@
     font-size: 1.5em;
     padding: 40px;
 }
+
 #contact h1 {
     font-size: 1.3em;
     text-align: center;
 }
 
-#contact i {
+#form form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #126131;
+    border-radius: 5px;
+}
+
+textarea.form {
+    height: 100px;
+}
+
+#form button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    background-color: #126131;
+    border: 2px solid #126131;
+    border-radius: 5px;
+    box-shadow: 0px 2px 0px #126131;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#form button:hover {
+    background-color: #40ae49;
+}
+
+#form button:active {
+    margin-top: 2px;
+    box-shadow: none;
+}
+
+.send-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-me i {
+    font-size: 1.5em;
     color: #40ae49;
 }
 
-#follow-me {
-    display: flex;
-    justify-content: space-around;
-}
 
 #follow-me i {
     font-size: 2em;
+}
+
+/* Mobile */
+@media all and (max-width: 540px) {
+    
+}
+
+/* Desktop */
+@media all and (min-width: 541px) {
+    #follow-me {
+        display: flex;
+        justify-content: space-around;
+    }
 }
