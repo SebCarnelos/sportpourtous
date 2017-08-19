@@ -19,7 +19,8 @@ body {
 	background-color: #40ae49;
 	border-bottom: 3px solid #126131;
 	width: 100%;
-	position: fixed; 
+	position: fixed;
+	z-index: 100;
 }
 
 .catchline {

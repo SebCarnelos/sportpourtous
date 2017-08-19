@@ -1,19 +1,21 @@
 #banner {
+    width:100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-#video-background:before {
-    content: '';
-    background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%); 
+#banner video {
+    object-fit: cover;
+    width:100%;
+    min-height:100%;
+    z-index: -100;
 }
 
-#video-background {
-    max-width: 100%;
-    object-fit: cover;
+.banner-filter {
+    position: absolute;
+    background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
     width: 100%;
-    height :100%;
-    z-index: -100;
 }
 
 /* Mobile */
@@ -21,11 +23,19 @@
     #banner {
         height: 37vh;
     }
+
+    .banner-filter {
+        height: 37vh;
+    }
 }
 
 /* Desktop */
 @media all and (min-width: 541px) {
     #banner {
+        height: 87vh;
+    }
+    
+    .banner-filter {
         height: 87vh;
     }
 }
