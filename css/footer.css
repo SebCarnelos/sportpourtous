@@ -5,12 +5,12 @@
     padding: 40px;
 }
 
-a {
+.footer a {
     color: #FFFFFA;
     text-decoration: none;
 }
 
-a:hover {
+.footer a:hover {
     color: #40ae49;
 }
 
