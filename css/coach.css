@@ -10,6 +10,7 @@
 /* Mobile */
 @media all and (max-width: 540px) {
     .thecoach {
+        padding: 50px 40px;
         flex-direction: column;
         align-items: center;
     }
