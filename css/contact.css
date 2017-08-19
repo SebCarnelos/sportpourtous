@@ -1,23 +1,23 @@
-.contact {
+#contact {
     background-color: #FFFFFF;
     color: #126131;
     font-size: 1.5em;
     padding: 40px;
 }
-.contact h1 {
+#contact h1 {
     font-size: 1.3em;
     text-align: center;
 }
 
-.contact i {
+#contact i {
     color: #40ae49;
 }
 
-.social {
+#follow-me {
     display: flex;
     justify-content: space-around;
 }
 
-.social i {
+#follow-me i {
     font-size: 2em;
 }
