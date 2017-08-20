@@ -73,6 +73,15 @@ textarea.form {
     line-height: 1.98;
 }
 
+.contact-list-text a {
+    color: #126131;
+    text-decoration: none;
+}
+
+.contact-list-text a:hover {
+    color: #40ae49;
+}
+
 #contact-me i {
     font-size: 1.5em;
     color: #40ae49;
