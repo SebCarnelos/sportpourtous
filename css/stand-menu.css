@@ -19,10 +19,12 @@
         color: #126131;
         font-size: 2em;
         letter-spacing: 1em;
+        transition: color 0.5s;
     }
 
     #navbar i:hover {
         color: #FFFFFF;
+        transition: color 0.5s;        
     }
 
     .med-menu {
@@ -49,9 +51,11 @@
     	color: #FFFFFF;
     	text-decoration: none;
         margin: 0 15px;
+        transition: color 0.5s;
     }
 
     .menu-links a:hover {
         color: #126131;
+        transition: color 0.5s;
     }
 }
