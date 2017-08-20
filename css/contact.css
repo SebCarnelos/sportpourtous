@@ -58,7 +58,19 @@ textarea.form {
 
 .contact-list {
     display: flex;
-    justify-content: space-between;
+}
+
+.contact-list ul {
+    list-style-type: none;
+}
+
+.contact-list-icon {
+    text-align: center;
+    line-height: 2.1;
+}
+
+.contact-list-text {
+    line-height: 1.98;
 }
 
 #contact-me i {
@@ -66,20 +78,60 @@ textarea.form {
     color: #40ae49;
 }
 
-
 #follow-me i {
-    font-size: 2em;
+    font-size: 2.8em;
+    color: #40ae49;
+}
+
+#follow-me i:hover {
+    font-size: 2.8em;
+    color: #126131;
+}
+
+.follow-icons {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Mobile */
 @media all and (max-width: 540px) {
+    .contact-list {
+        margin-top: 40px;
+    }
     
+    #follow-me {
+        margin-top: 40px;
+    }
 }
 
 /* Desktop */
 @media all and (min-width: 541px) {
-    #follow-me {
+    #contact {
         display: flex;
-        justify-content: space-around;
+    }
+
+    #contact-me {
+        width: 66%;
+    }
+    
+    .contact-me-content {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 40px
+    }
+
+    #form {
+        width: 66%;
+    }
+
+    #contact hr {
+        display: none;
+    }
+
+    #follow-me {
+        width: 33%;
+        padding-left: 40px;
+        border-left: 1px solid #BBBBBB;
+        text-align: center;
     }
 }
