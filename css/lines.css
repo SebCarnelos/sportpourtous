@@ -1,0 +1,38 @@
+.lines {
+    background-repeat: no-repeat;
+    height: 50px;    
+}
+
+.left-line1 {
+    background: url("../img/left-lines.jpg") no-repeat center;
+}
+
+.right-line1 {
+    background: url("../img/right-lines.jpg") no-repeat center;
+}
+
+/* Mobile */
+@media all and (max-width: 540px) {
+    .lines {
+        background-size: auto 65%;
+    }
+
+    .left-line1 {
+        background-position-x: 125%;        
+    }
+
+    .right-line1 {
+        background-position-x: -25%;        
+    }
+}
+
+/* Desktop */
+@media all and (min-width: 541px) {
+    .left-line1 {
+        background-position-x: -50%;
+    }
+
+    .right-line1 {
+        background-position-x: right;        
+    }
+}

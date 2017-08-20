@@ -6,9 +6,10 @@
 @import url(coach.css);
 @import url(contact.css);
 @import url(footer.css);
+@import url(lines.css);
 
 body {
-	background-color: #515052;
+	background-color: #FFFFFF;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	color: #000103;
 	font-size: 15px;
