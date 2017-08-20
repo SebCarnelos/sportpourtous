@@ -5,7 +5,7 @@
 }
 
 /* mobile */
-@media all and (max-width: 540px) {
+@media all and (max-width: 1019px) {
     .wrapper {
         padding: 50px 0 0 0; 
         flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 /* standard */
-@media all and (min-width: 541px) {
+@media all and (min-width: 1020px) {
     .wrapper {
         justify-content: space-around;
     }
