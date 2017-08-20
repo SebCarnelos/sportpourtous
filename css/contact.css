@@ -103,7 +103,7 @@ textarea.form {
 }
 
 /* Mobile */
-@media all and (max-width: 540px) {
+@media all and (max-width: 997px) {
     .contact-list {
         margin-top: 40px;
     }
@@ -114,7 +114,7 @@ textarea.form {
 }
 
 /* Desktop */
-@media all and (min-width: 541px) {
+@media all and (min-width: 998px) {
     #contact {
         display: flex;
     }
