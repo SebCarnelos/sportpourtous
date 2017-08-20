@@ -1,5 +1,6 @@
 .wrapper {
-    background-color: #E8E8E3;
+    /* background-color: #E8E8E3; */
+    background-color: #FFFFFF;    
     padding: 100px 25px 100px 25px;
     display: flex;
 }
