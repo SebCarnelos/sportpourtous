@@ -1,12 +1,13 @@
 .wrapper {
     background-color: #FFFFFF;    
-    padding: 100px 25px 100px 25px;
+    padding: 100px 25px;
     display: flex;
 }
 
 /* mobile */
 @media all and (max-width: 540px) {
     .wrapper {
+        padding: 50px 0 0 0; 
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -14,7 +15,7 @@
 }
 
 /* standard */
-@media all and (min-width: 54px) {
+@media all and (min-width: 541px) {
     .wrapper {
         justify-content: space-around;
     }
