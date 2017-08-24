@@ -36,7 +36,7 @@ textarea.form {
     background-color: #126131;
     border: 2px solid #126131;
     border-radius: 5px;
-    box-shadow: 0px 2px 0px #126131;
+    box-shadow: inset 0 -3px #126131;
     padding: 10px;
     width: 100px;
     text-align: center;
@@ -47,8 +47,8 @@ textarea.form {
 }
 
 #form button:active {
-    margin-top: 2px;
-    box-shadow: none;
+    box-shadow: inset 0 5px #40ae49;
+    padding: 15px 10px 5px 10px;
 }
 
 .send-button {
