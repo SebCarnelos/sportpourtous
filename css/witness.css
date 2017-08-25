@@ -1,0 +1,42 @@
+#witnesses {
+	background-color: #FFFFFA;
+    height: 40vh;
+    font-size: 1.2em;
+    padding: 50px 40px;
+}
+
+#witnesses i {
+    font-size: 1.5em;
+}
+
+.witness {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-quote {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10%;
+}
+
+.witness-sig {
+    text-align: right;
+}
+
+/* mobile */
+@media all and (max-width: 1019px) {
+}
+
+/* Desktop */
+/* standard */
+@media all and (min-width: 1020px) {
+    #witnesses {
+        display: flex;
+        align-items: space-around;
+    }
+
+    .witness {
+        width: 25%;
+    }
+}

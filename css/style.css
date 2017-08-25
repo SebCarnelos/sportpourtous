@@ -1,12 +1,13 @@
 @import url(mobile-menu.css);
 @import url(stand-menu.css);
 @import url(banner.css);
+@import url(lines.css);
 @import url(wrapper.css);
 @import url(card.css);
 @import url(coach.css);
+@import url(witness.css);
 @import url(contact.css);
 @import url(footer.css);
-@import url(lines.css);
 
 body {
 	background-color: #FFFFFF;
@@ -32,11 +33,6 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	position: center;
-}
-
-.witness {
-	height: 40vh;
-	background-color: #FFFFFA;
 }
 
 .partners {
