@@ -1,15 +1,22 @@
 #witnesses {
-	background-color: #FFFFFA;
-    height: 40vh;
+    background-color: #FFFFFA;
+    min-height: 40vh;
     font-size: 1.2em;
-    padding: 50px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-#witnesses i {
-    font-size: 1.5em;
+.witness i {
+    color: #40ae49;
+    font-size: 1.3em;
 }
 
-.witness {
+.witness img {
+    width: 80px;
+}
+
+.witness-quote {
     display: flex;
     justify-content: space-between;
 }
@@ -17,23 +24,69 @@
 .end-quote {
     display: flex;
     align-items: flex-end;
-    padding-bottom: 10%;
 }
 
 .witness-sig {
-    text-align: right;
+    padding-top: 5px;
 }
+
+.city {
+    color: #40ae49;
+}
+
+.witness p {
+    color: #515052;
+    padding: 0 10px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.arrow a {
+    color: #40ae49;
+}
+
+.arrow a:hover {
+    transition: all 200ms ease-in;
+    animation: ani 1s infinite;
+}
+
+@keyframes ani {
+    0% {
+        color: #126131;
+        transform: scale(1);
+    }
+    50% {
+        color: #40ae49;
+        transform: scale(1.15); 
+    }
+    100% {
+        color: #126131;        
+        transform: scale(1);
+    }
+  }
 
 /* mobile */
 @media all and (max-width: 1019px) {
+    #witnesses {
+        padding: 50px 20px;
+    }
+
+    .witness {
+        width: 75%;
+    }
+    .mob-hidden {
+        display: none;
+    }
 }
 
 /* Desktop */
-/* standard */
 @media all and (min-width: 1020px) {
     #witnesses {
-        display: flex;
-        align-items: space-around;
+        padding: 50px 40px;
     }
 
     .witness {
