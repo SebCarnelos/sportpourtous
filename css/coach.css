@@ -1,4 +1,4 @@
-.thecoach {
+.coach {
     color: #FFFFFF;
     font-size: 1.4em;
     margin: 0;
@@ -9,32 +9,46 @@
 
 /* Mobile */
 @media all and (max-width: 540px) {
-    .thecoach {
+    .coach {
         padding: 50px 40px;
         flex-direction: column;
         align-items: center;
     }
+
+    .coach-avatar-mob {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #FFFFFF;
+        box-shadow: 2px 2px 5px #000000;
+    }
     
-    p {
+    .coach p {
         margin-top: 40px;
+    }
+
+    .coach hr {
+        width: 100%;
     }
 }
 
 /* Desktop */
 @media all and (min-width: 541px) {
-    .thecoach {
+    .coach {
         padding:40px;
         padding: 40px 15vh;
         justify-content: space-between;
     }
+
+    .coach-avatar-mob {
+        display: none;
+    }
+
+    .coach hr {
+        display: none;
+    }
     
-    .thecoach p {
+    .coach p {
         margin-left: 40px;
     }
-}
-
-.coach-avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
 }
