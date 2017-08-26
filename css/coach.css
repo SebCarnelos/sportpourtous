@@ -1,19 +1,10 @@
-.coach {
+.coaches {
     color: #FFFFFF;
     font-size: 1.4em;
     margin: 0;
     background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../img/pexels-photo-416754.jpeg) no-repeat center fixed; 
     background-size: cover; 
-    display: flex;
 }
-
-/* Mobile */
-@media all and (max-width: 540px) {
-    .coach {
-        padding: 50px 40px;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .coach-avatar-mob {
         width: 150px;
@@ -22,33 +13,42 @@
         border: 3px solid #FFFFFF;
         box-shadow: 2px 2px 5px #000000;
     }
+
+/* Mobile */
+@media all and (max-width: 540px) {
+    .coaches {
+        padding: 40px 40px;
+        display: flex;
+        flex-direction: column;
+    }
     
-    .coach p {
+    .coach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .coaches p {
         margin-top: 40px;
     }
 
-    .coach hr {
+    .coaches hr {
         width: 100%;
     }
 }
 
 /* Desktop */
 @media all and (min-width: 541px) {
-    .coach {
-        padding:40px;
+    .coaches {
         padding: 40px 15vh;
         justify-content: space-between;
     }
 
-    .coach-avatar-mob {
-        display: none;
-    }
-
-    .coach hr {
+    .coaches hr {
         display: none;
     }
     
-    .coach p {
+    .coaches p {
         margin-left: 40px;
     }
 }
