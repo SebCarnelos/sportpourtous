@@ -44,14 +44,15 @@ body {
 	background-color: #E8E8E3;
 	opacity: 0.5;
 	border-radius: 5px 0 0 5px;
-	width: 18px;
-	height: 30px;
+	width: 30px;
+	height: 40px;
 	right: 0px;
 	bottom: 5vh;
 	padding: 10px;
 	position: fixed;
 	z-index: 100;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -62,5 +63,5 @@ body {
 
 .totop i {
 	color: 515052;
-	font-size: 2em;
+	font-size: 2.5em;
 }
