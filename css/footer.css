@@ -1,16 +1,17 @@
-.footer {
+#footer {
     background-color: #000103;
     color: #FFFFFA;
     font-size: 1.2em;
     padding: 40px;
+    display: flex;
 }
 
-.footer a {
+#footer a {
     color: #FFFFFA;
     text-decoration: none;
 }
 
-.footer a:hover {
+#footer a:hover {
     color: #40ae49;
 }
 
@@ -28,12 +29,11 @@ a.websebs:hover {
 }
 
 .copy {
-    display: flex;
 }
 
 /* Mobile */
 @media all and (max-width: 540px) {
-    .copy {
+    #footer {
         flex-direction: column;
     }
     .legal {
@@ -58,7 +58,7 @@ a.websebs:hover {
 
 /* Desktop */
 @media all and (min-width: 541px) {
-    .copy {
+    #footer {
         justify-content: space-between;
     }
 }
