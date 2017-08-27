@@ -39,3 +39,9 @@
         height: 87vh;
     }
 }
+
+/* Sport coaching page */
+
+.spcoach-banner {
+    background-size: cover !important;    
+}
