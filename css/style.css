@@ -25,6 +25,10 @@ body {
 	z-index: 100;
 }
 
+#navbar img:hover {
+	cursor: pointer; cursor: hand;
+}
+
 .catchline {
 	padding: 25px 10px;
 	background-color: #FFFFFA;
