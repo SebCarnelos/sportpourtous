@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+  <meta name="description" content="Description du site."> <!-- To edit -->
+  <!-- See slide #24 : http://www.lesvotres.com/lewagon/LeWagon-landing_page.pdf -->
+  <meta name="viewport" content="width=device-width">
+  <title>Coaching Sportif - Le Sport pour Tous</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
+  <script src="javascript/scripts.js"></script>
+</head>
+<body>
+  <a onclick="scrollToTop();return false">
+    <div class="totop">
+      <i class="fa fa-level-up fa-flip-horizontal" aria-hidden="true"></i>
+    </div>
+  </a>
+
+  <div id="navbar">
+    <!-- MOBILE MENU  -->
+    <div class="nav-mobile">
+      <div>
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+      </div>
+      <div id="title">
+        Le Sport pour Tous
+      </div>
+      <div>
+        <a href="javascript:void(0);">
+          <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+        </a>
+      </div>
+    </div>
+    <div id="mobile-menu" class="open">
+      <ul>
+        <li class="mobile-menu underline">
+          <a href="sport-coaching.html">Coaching sportif</a>
+        </li>
+        <li class="mobile-menu underline">
+          <a href="climb-coaching.html">Coaching escalade</a>
+        </li>
+        <li class="mobile-menu">
+          <a href="route-setting.html">Ouverture de voie</a>
+        </li>
+      </ul>
+    </div>
+    <!-- STANDARD MENU -->
+    <div class="medium-nav">
+      <div>
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo" id="logorise">
+        </a>
+      </div>
+      <div class="med-menu">
+        <div id="title">
+          Le Sport pour Tous
+        </div>
+        <div class="menu-links">
+          <a href="sport-coaching.html">Coaching sportif</a>&bull;
+          <a href="climb-coaching.html">Coaching escalade</a>&bull;
+          <a href="route-setting.html">Ouverture de voies</a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div id="footer">
+    <span>Copyright©2017 Le Sport Pour Tous | Site Web by <a class="websebs" href="https://github.com/SebCarnelos" target="blank_">WebSebs</a></span>
+    <span class="legal">
+      <a href="copy.html">Mentions légales</a><span class="pipe"> | </span>
+      <a href="bug.html">Signaler un bug</a>
+    </span>
+  </div>
+</body>
+</html>
