@@ -55,10 +55,6 @@
         display: none;
     }
 
-    .coach:last-child img {
-        /* margin-left: 40px; */
-    }
-
     .coach {
         display: flex;
         justify-content: space-between;
