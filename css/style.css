@@ -40,15 +40,27 @@ body {
 	background-color: #E8E8E3;
 }
 
-.totop i {
-	font-size: 2em;
-	background-color: rgba(255, 0, 0, 0.29);
-	border-radius: 5px 5px 0 0 ;
-	width: 50px;
-	height: 25px;
-	right: -15px;
-	bottom: 100px;
+.totop {
+	background-color: #E8E8E3;
+	opacity: 0.5;
+	border-radius: 5px 0 0 5px;
+	width: 18px;
+	height: 30px;
+	right: 0px;
+	bottom: 5vh;
 	padding: 10px;
 	position: fixed;
 	z-index: 100;
+	display: flex;
+	align-items: center;
+}
+
+.totop:hover {
+	cursor: pointer; cursor: hand;
+	opacity: 1;
+}
+
+.totop i {
+	color: 515052;
+	font-size: 2em;
 }
