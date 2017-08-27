@@ -28,14 +28,12 @@ a.websebs:hover {
     text-transform: uppercase;    
 }
 
-.copy {
-}
-
 /* Mobile */
 @media all and (max-width: 540px) {
     #footer {
         flex-direction: column;
     }
+
     .legal {
         margin-top: 20px;
         display: flex;
