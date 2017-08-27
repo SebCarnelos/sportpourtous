@@ -7,76 +7,82 @@
   <meta name="descrption" content="Description du site."> <!-- To edit -->
   <!-- See slide #24 : http://www.lesvotres.com/lewagon/LeWagon-landing_page.pdf -->
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Anton|Yanone+Kaffeesatz" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
   <script src="javascript/menu.js"></script>
 </head>
 <body>
-<div id="navbar">
-  <!-- MOBILE MENU  -->
-  <div class="nav-mobile">
-    <div>
-      <img src="img/logo.png" alt="Logo" class="logo">
-    </div>
-    <div id="title">
-      Le Sport pour Tous
-    </div>
-    <div>
-      <a href="javascript:void(0);">
-        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
-      </a>
-    </div>
-  </div>
-  <div id="mobile-menu" class="open">
-    <ul>
-      <li class="mobile-menu underline">
-        <a href="#">Coaching sportif</a>
-      </li>
-      <li class="mobile-menu underline">
-        <a href="#">Coaching escalade</a>
-      </li>
-      <li class="mobile-menu underline">
-        <a href="#">Ouverture de voie</a>
-      </li>
-      <li class="mobile-menu">
-        <a href="#">Tarifs/Contact</a>
-      </li>
-    </ul>
-  </div>
-  <!-- STANDARD MENU -->
-  <div class="medium-nav">
-    <div><img src="img/logo.png" alt="Logo" id="logorise"></div>
-    <div class="med-menu">
+  <div id="navbar">
+    <!-- MOBILE MENU  -->
+    <div class="nav-mobile">
+      <div>
+        <a href="#" onclick="scrollToTop();return false">
+          <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+      </div>
       <div id="title">
         Le Sport pour Tous
       </div>
-      <div class="menu-links">
-        <a href="#">Coaching sportif</a>&bull;
-        <a href="#">Coaching escalade</a>&bull;
-        <a href="#">Ouverture de voies</a>&bull;
-        <a href="#">Tarifs/Contact</a>
-      </div>
       <div>
-        <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="javascript:void(0);">
+          <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+        </a>
+      </div>
+    </div>
+    <div id="mobile-menu" class="open">
+      <ul>
+        <li class="mobile-menu underline">
+          <a href="#">Coaching sportif</a>
+        </li>
+        <li class="mobile-menu underline">
+          <a href="#">Coaching escalade</a>
+        </li>
+        <li class="mobile-menu underline">
+          <a href="#">Ouverture de voie</a>
+        </li>
+        <li class="mobile-menu">
+          <a href="#">Tarifs/Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- STANDARD MENU -->
+    <div class="medium-nav">
+      <div>
+        <a href="#" onclick="scrollToTop();return false">
+          <img src="img/logo.png" alt="Logo" id="logorise">
+        </a>
+      </div>
+      <div class="med-menu">
+        <div id="title">
+          Le Sport pour Tous
+        </div>
+        <div class="menu-links">
+          <a href="#">Coaching sportif</a>&bull;
+          <a href="#">Coaching escalade</a>&bull;
+          <a href="#">Ouverture de voies</a>&bull;
+          <a href="#">Tarifs/Contact</a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-<div id="banner">
-  <div class="banner-filter"></div>
-  <video autoplay loop muted>
-    <source src="vid/banfilm.mp4" type="video/mp4">
-      Your browser doesn't support HTML5 video. Here's a <a target="_blank" href="vid/banfilm.mp4">link</a> to download the video.
-  </video>
-</div>
-
-<div class="catchline">
-  La passion du coaching et de l'escalade à prix réduit.
+  
+  <div id="banner">
+    <div class="banner-filter"></div>
+    <video autoplay loop muted>
+      <source src="vid/banfilm.mp4" type="video/mp4">
+        Your browser doesn't support HTML5 video. Here's a <a target="_blank" href="vid/banfilm.mp4">link</a> to download the video.
+      </video>
+    </div>
+    
+    <div class="catchline">
+      La passion du coaching et de l'escalade à prix réduit.
 </div>
 
 <div class="lines left-line1"></div>
