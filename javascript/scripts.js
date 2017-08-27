@@ -9,7 +9,6 @@ function toggleMenu() {
   }
 }
 
-
 // Logo Rises for desktop menu
 var setSkrollr = function($el, data) {
   for (var i = 0, l = data.length; i < l; i++) {
@@ -38,3 +37,13 @@ if ( $(window).width() > 540 ) {
     }
     else clearTimeout(timeOut);
   }
+
+  // Back to Top button appearence
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
+      $('.totop').fadeIn();
+    } else {
+      $('.totop').fadeOut();
+    }
+  });
