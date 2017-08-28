@@ -40,8 +40,15 @@ body {
 }
 
 .partners {
-	height: 40vh;
+	height: 35vh;
 	background-color: #E8E8E3;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.partners img {
+	height: 80px;
 }
 
 .totop {
