@@ -1,3 +1,41 @@
+#trust {
+    margin: 60px 0 40px 0;
+    display: flex;
+}
+
 #trust img {
-    width: 150px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trust p {
+    font-size: 1.2em;
+}
+
+.index {
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mobile */
+@media all and (max-width: 540px) {
+    #trust {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index:nth-child(2) {
+        margin: 40px 0;
+    }
+}
+
+/* Desktop */
+@media all and (min-width: 541px) {
+     #trust {
+        justify-content: space-around;
+     }
 }
