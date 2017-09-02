@@ -16,165 +16,186 @@
   <script src="javascript/scripts.js"></script>
 </head>
 <body>
-  <a onclick="scrollToTop();return false">
-    <div class="totop">
-      <i class="fa fa-level-up fa-flip-horizontal" aria-hidden="true"></i>
-    </div>
-  </a>
+<a onclick="scrollToTop();return false">
+  <div class="totop">
+    <i class="fa fa-level-up fa-flip-horizontal" aria-hidden="true"></i>
+  </div>
+</a>
 
-  <div id="navbar">
-    <!-- MOBILE MENU  -->
-    <div class="nav-mobile">
-      <div>
-        <a onclick="scrollToTop();return false">
-          <img src="img/logo.png" alt="Logo" class="logo">
-        </a>
-      </div>
+<div id="navbar">
+  <!-- MOBILE MENU  -->
+  <div class="nav-mobile">
+    <div>
+      <a onclick="scrollToTop();return false">
+        <img src="img/logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <div id="title">
+      Le Sport pour Tous
+    </div>
+    <div>
+      <a href="javascript:void(0);">
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+      </a>
+    </div>
+  </div>
+  <div id="mobile-menu" class="open">
+    <ul>
+      <li class="mobile-menu underline">
+        <a href="sport-coaching.html">Coaching sportif</a>
+      </li>
+      <li class="mobile-menu underline">
+        <a href="climb-coaching.html">Coaching escalade</a>
+      </li>
+      <li class="mobile-menu">
+        <a href="route-setting.html">Ouverture de voie <span class="and">&</span> bloc</a>
+      </li>
+    </ul>
+  </div>
+  <!-- STANDARD MENU -->
+  <div class="medium-nav">
+    <div>
+      <a onclick="scrollToTop();return false">
+        <img src="img/logo.png" alt="Logo" id="logorise">
+      </a>
+    </div>
+    <div class="med-menu">
       <div id="title">
         Le Sport pour Tous
       </div>
-      <div>
-        <a href="javascript:void(0);">
-          <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
-        </a>
+      <div class="menu-links">
+        <a href="sport-coaching.html">Coaching sportif</a>&bull;
+        <a href="climb-coaching.html">Coaching escalade</a>&bull;
+        <a href="route-setting.html">Ouverture de voies <span class="and">&</span> bloc</a>
       </div>
-    </div>
-    <div id="mobile-menu" class="open">
-      <ul>
-        <li class="mobile-menu underline">
-          <a href="sport-coaching.html">Coaching sportif</a>
-        </li>
-        <li class="mobile-menu underline">
-          <a href="climb-coaching.html">Coaching escalade</a>
-        </li>
-        <li class="mobile-menu">
-          <a href="route-setting.html">Ouverture de voie <span class="and">&</span> bloc</a>
-        </li>
-      </ul>
-    </div>
-    <!-- STANDARD MENU -->
-    <div class="medium-nav">
       <div>
-        <a onclick="scrollToTop();return false">
-          <img src="img/logo.png" alt="Logo" id="logorise">
-        </a>
-      </div>
-      <div class="med-menu">
-        <div id="title">
-          Le Sport pour Tous
-        </div>
-        <div class="menu-links">
-          <a href="sport-coaching.html">Coaching sportif</a>&bull;
-          <a href="climb-coaching.html">Coaching escalade</a>&bull;
-          <a href="route-setting.html">Ouverture de voies <span class="and">&</span> bloc</a>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </div>
+        <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
+</div>
 
+  
+<div id="banner">
+  <div class="banner-filter"></div>
+  <video autoplay loop muted>
+    <source src="vid/banfilm.mp4" type="video/mp4">
+    Your browser doesn't support HTML5 video. Here's a <a target="_blank" href="vid/banfilm.mp4">link</a> 
+    to download the video.
+  </video>
+</div>
     
-  <div id="banner">
-    <div class="banner-filter"></div>
-    <video autoplay loop muted>
-      <source src="vid/banfilm.mp4" type="video/mp4">
-      Your browser doesn't support HTML5 video. Here's a <a target="_blank" href="vid/banfilm.mp4">link</a> to download the video.
-    </video>
+<div class="catchline">
+  La passion du coaching et de l'escalade à prix réduit.
+</div>
+
+<div class="lines left-line1"></div>
+
+<div id="trust">
+  <div class="index">
+    <img src="img/piggy-bank.svg" alt="tirelire">
+    <p>
+      <strong>Le Sport pour Tous</strong> vous propose des tarifs avantageux pour toutes les bourses, jusqu'à 2 fois 
+      moins chers que la concurence !
+    </p>
   </div>
-      
-  <div class="catchline">
-    La passion du coaching et de l'escalade à prix réduit.
+  <div class="index">
+    <img src="img/diploma.svg" alt="diplôme">
+    <p>
+      Vous serez encadré par un coach sportif <strong>professionnel et expérimenté</strong> pour atteindre vos 
+      objectifs.
+    </p>
+  </div>
+  <div class="index">
+    <img src="img/dumbbell.svg" alt="altère">
+    <p>
+      Découverte, entretien, préparation, performance ? Le coach s'adapte à vos objectifs en vous proposant 
+      <strong>une expérience sportive diversifiée</strong>.
+    </p>
+  </div>
   </div>
 
-  <div class="lines left-line1"></div>
+<div class="lines right-line1"></div>
 
-  <div id="trust">
-    <div class="index">
-      <img src="img/piggy-bank.svg" alt="tirelire">
-      <p><strong>Le Sport pour Tous</strong> vous propose des tarifs avantageux pour toutes les bourses, jusqu'à 2 fois moins chers que la concurence !</p>
-    </div>
-    <div class="index">
-      <img src="img/diploma.svg" alt="diplôme">
-      <p>Vous serez encadré par un coach sportif <strong>professionnel et expérimenté</strong> pour atteindre vos objectifs.</p>
-    </div>
-    <div class="index">
-      <img src="img/dumbbell.svg" alt="altère">
-      <p>Découverte, entretien, préparation, performance ? Le coach s'adapte à vos objectifs en vous proposant <strong>une expérience sportive diversifiée</strong>.</p>
-    </div>
-  </div>
-
-  <div class="lines right-line1"></div>
-
-  <div class="wrapper">
-    <a href="sport-coaching.html" class="card-link">
-      <div class="card">
-        <div class="card-title">
-          Coaching sportif
-        </div>
-        <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/pexels-photo-414029.jpg) no-repeat center center;"></div>
-        <div class="card-content">
-          <ul>
-            <li>Haec ubi latius fama vulgasset missaeque</li>
-            <li>Post haec indumentum regale quaerebatur et</li>
-            <li>Ut enim benefici liberalesque sumus, non ut</li>
-            <li>Cum saepe multa, tum memini domi in hemicyclio</li>
-            <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>
-          </ul>
-        </div>
-        <div class="card-button">Plus d'informations</div>
+<div class="wrapper">
+  <a href="sport-coaching.html" class="card-link">
+    <div class="card">
+      <div class="card-title">
+        Coaching sportif
       </div>
-    </a>
-
-    <a href="climb-coaching.html" class="card-link">
-      <div class="card">
-        <div class="card-title">
-          Coaching escalade
-        </div>
-        <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/12032723_907922729262763_3385820816555303735_o.jpg) no-repeat center center;"></div>
-        <div class="card-content">
-          <ul>
-            <li>Haec ubi latius fama vulgasset missaeque</li>
-            <li>Post haec indumentum regale quaerebatur et</li>
-            <li>Ut enim benefici liberalesque sumus, non ut</li>
-            <li>Cum saepe multa, tum memini domi in hemicyclio</li>
-            <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>            
-          </ul>
-        </div>
-        <div class="card-button">Plus d'informations</div>
+      <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/pexels-photo-414029.jpg) no-repeat center center;"></div>
+      <div class="card-content">
+        <ul>
+          <li>Haec ubi latius fama vulgasset missaeque</li>
+          <li>Post haec indumentum regale quaerebatur et</li>
+          <li>Ut enim benefici liberalesque sumus, non ut</li>
+          <li>Cum saepe multa, tum memini domi in hemicyclio</li>
+          <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>
+        </ul>
       </div>
-    </a>
+      <div class="card-button">Plus d'informations</div>
+    </div>
+  </a>
 
-    <a href="route-setting.html" class="card-link">
-      <div class="card">
-        <div class="card-title">
-          Ouverture de voies <span class="and">&</span> bloc
-        </div>
-        <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/20839901_10214063714009772_1304076645_o.jpg) no-repeat center center;"></div>
-        <div class="card-content">
-          <ul>
-            <li>Haec ubi latius fama vulgasset missaeque</li>
-            <li>Post haec indumentum regale quaerebatur et</li>
-            <li>Ut enim benefici liberalesque sumus, non ut</li>
-            <li>Cum saepe multa, tum memini domi in hemicyclio</li>
-            <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>
-          </ul>
-        </div>
-        <div class="card-button">Plus d'informations</div>
+  <a href="climb-coaching.html" class="card-link">
+    <div class="card">
+      <div class="card-title">
+        Coaching escalade
       </div>
-    </a>
+      <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/12032723_907922729262763_3385820816555303735_o.jpg) no-repeat center center;"></div>
+      <div class="card-content">
+        <ul>
+          <li>Haec ubi latius fama vulgasset missaeque</li>
+          <li>Post haec indumentum regale quaerebatur et</li>
+          <li>Ut enim benefici liberalesque sumus, non ut</li>
+          <li>Cum saepe multa, tum memini domi in hemicyclio</li>
+          <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>            
+        </ul>
+      </div>
+      <div class="card-button">Plus d'informations</div>
+    </div>
+  </a>
+
+  <a href="route-setting.html" class="card-link">
+    <div class="card">
+      <div class="card-title">
+        Ouverture de voies <span class="and">&</span> bloc
+      </div>
+      <div class="card-pic" style="background: linear-gradient(-225deg, rgba(19, 78, 94,0.3) 0%, rgba(113, 178, 128,0.3) 50%), url(img/20839901_10214063714009772_1304076645_o.jpg) no-repeat center center;"></div>
+      <div class="card-content">
+        <ul>
+          <li>Haec ubi latius fama vulgasset missaeque</li>
+          <li>Post haec indumentum regale quaerebatur et</li>
+          <li>Ut enim benefici liberalesque sumus, non ut</li>
+          <li>Cum saepe multa, tum memini domi in hemicyclio</li>
+          <li>Ciliciam vero, quae Cydno amni exultat, Tarsus</li>
+        </ul>
+      </div>
+      <div class="card-button">Plus d'informations</div>
+    </div>
+  </a>
+</div>
+
+<div class="lines left-line1"></div>
+
+<div id="coaches">
+  <div class="coaches-text">
+    <h1>Qui sommes-nous ?</h1>
+    <p>
+      <strong>Manon Coueste</strong> et <strong>Kévin Fiette</strong> : nous pratiquons l'escalade depuis 15 ans chacun, 
+      nous sommes amoureux du sport et de tout le bien être que cela nous procure. Après de longues années de pratique 
+      en compétition, en loisir, en extérieur, l'escalade et le sport en général est devenu pour nous plus qu'une 
+      pratique, c'est un style de vie et c'est ce que nous voulons transmettre au travers du 
+      <strong>Sport pour Tous</strong>.
+    </p>
   </div>
-
-  <div class="lines left-line1"></div>
-
-  <div id="coaches">
+  <div id="coaches-in">
     <div class="coach">
-      <h1 class="coach-mob">Manon Coueste</h1>
+      <h2 class="coach-mob">Manon Coueste</h2>
       <img src="img/manon_square.jpg" alt="Manon Coueste" class="coach-avatar-mob">
       <div class="coach-text">
-        <h1 class="coach-desk">Manon Coueste</h1>    
+        <h2 class="coach-desk">Manon Coueste</h2>    
         <p>
           Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero solitarum rerum cibos iam consumendo inediae propinquantis aerumnas exitialis horrebant.
         </p>
@@ -182,21 +203,28 @@
     </div>
     <hr>
     <div class="coach">
-      <h1 class="coach-mob">Kévin Fiette</h1>
+      <h2 class="coach-mob">Kévin Fiette</h2>
       <img src="img/kevin_square.jpg" alt="Kévin Fiette" class="coach-avatar-mob">
       <div class="coach-text">
-        <h1 class="coach-desk">Kévin Fiette</h1>    
+        <h2 class="coach-desk">Kévin Fiette</h2>    
         <p>
           Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero solitarum rerum cibos iam consumendo inediae propinquantis aerumnas exitialis horrebant.
         </p>
       </div>
     </div>
   </div>
-  
-  <div class="lines right-line1"></div>    
-  
-  <div id="witnesses">
-      <div class="arrow">
+  <div class="coaches-text">
+    <p>
+      Nos formations, diplômes et expériences dans le milieu du sport font de nous un binôme complémentaire. 
+      Laissez nous vous apporter de nouvelles choses dans votre pratique sportive avec une expérience professionnelle.
+    </p>
+  </div>
+</div>
+
+<div class="lines right-line1"></div>    
+
+<div id="witnesses">
+  <div class="arrow">
         <a href="javascript:void(0);">
           <i class="fa fa-angle-left" aria-hidden="true"></i>
         </a>

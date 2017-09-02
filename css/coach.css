@@ -1,11 +1,16 @@
 #coaches {
-    color: #FFFFFF;
     font-size: 1.4em;
-    padding: 40px;
     margin-bottom: 20px;
+    display: flex;
+}
+
+#coaches-in {
     background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../img/pexels-photo-416754.jpeg) no-repeat center fixed; 
     background-size: cover; 
-    display: flex;
+}
+
+.coaches-text {
+    padding: 40px;
 }
 
 .coach-avatar-mob {
@@ -14,6 +19,11 @@
     border-radius: 50%;
     border: 3px solid #FFFFFF;
     box-shadow: 2px 2px 5px #000000;
+}
+
+.coach {
+    color: #FFFFFF;
+
 }
 
 /* Mobile */
@@ -47,7 +57,7 @@
         justify-content: space-between;
     }
 
-    #coaches h1 {
+    #coaches h2 {
         margin-top: 0;
     }
     
