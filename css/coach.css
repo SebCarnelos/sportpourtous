@@ -1,80 +1,115 @@
 #coaches {
     font-size: 1.4em;
     margin-bottom: 20px;
-    display: flex;
+    text-align: center;
 }
 
 #coaches-in {
     background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../img/pexels-photo-416754.jpeg) no-repeat center fixed; 
-    background-size: cover; 
+    background-size: cover;
+    display: flex; 
 }
 
 .coaches-text {
-    padding: 40px;
+    padding: 20px 40px;
 }
 
-.coach-avatar-mob {
+.coaches-text h1 {
+    text-align: center;
+    color: #515052;
+}
+
+.coach-avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #FFFFFF;
+    border: 5px solid #FFFFFF;
     box-shadow: 2px 2px 5px #000000;
 }
 
 .coach {
     color: #FFFFFF;
+}
 
+.coach h2 {
+    font-size: 2em;
 }
 
 /* Mobile */
-@media all and (max-width: 540px) {
-    #coaches {
-        flex-direction: column;
-    }
-    
-    #coaches p {
-        margin-top: 40px;
-    }
-
+@media all and (max-width: 999px) {
     #coaches hr {
         width: 100%;
+    }
+    
+    #coaches-in {
+        padding: 20px 30px;
+        flex-direction: column;
     }
     
     .coach {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
-
+    
+    .coach p {
+        margin-top: 40px;
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+    
     .coach-desk {
         display: none;
     }
 }
 
 /* Desktop */
-@media all and (min-width: 541px) {
-    #coaches {
-        justify-content: space-between;
-    }
-
+@media all and (min-width: 1000px) {
     #coaches h2 {
-        margin-top: 0;
+        margin: 0;
     }
     
     #coaches hr {
         display: none;
     }
-
+    
+    #coaches-in {
+        padding: 40px 7% 40px 0;
+        justify-content: center;
+    }
+    
     .coach {
         display: flex;
         justify-content: space-between;
     }
 
+    .coach p {
+        line-height: 2.1;
+        margin: 0;
+    }
+
+    .coach-leftline {
+        margin-right: 15px;
+    }
+
+    .coach-rightline {
+        margin-left: 15px;
+    }
+
+    /* .coach-text h2:first-child {
+        margin-right: -25px;
+    } */
+
+    img.coach-desk {
+        margin-right: 75px;
+    }        
+    
     .coach-mob {
         display: none;
     }
 
-    .coach-text {
-        padding-left: 15px;
+    #coaches-in div:first-child {
+        text-align: right;
     }
 }
