@@ -37,9 +37,10 @@
     background-size: cover;
 }
 
-.goals h2 {
+.goals-text h2 {
     font-size: 1.8em;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .goal {
@@ -90,7 +91,7 @@
 }
 
 /* Mobile */
-@media all and (max-width: 719px) {
+@media all and (max-width: 1099px) {
     .sap_details img {
         display:block;
         margin-left:auto;
@@ -109,9 +110,30 @@
 }
 
 /* Desktop */
-@media all and (min-width: 720px) {
+@media all and (min-width: 1100px) {
     .sap_details {
         display: flex;
         justify-content: space-around;
+    }
+
+    #goals-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .goal-img {
+        height: 500px;
+        width: 35%;
+    }
+
+    .goals-text {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    .goals {
+        display: flex;
     }
 }
