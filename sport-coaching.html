@@ -16,86 +16,121 @@
   <script src="javascript/scripts.js"></script>
 </head>
 <body>
-  <a onclick="scrollToTop();return false">
-    <div class="totop">
-      <i class="fa fa-level-up fa-flip-horizontal" aria-hidden="true"></i>
-    </div>
-  </a>
+<a onclick="scrollToTop();return false">
+  <div class="totop">
+    <i class="fa fa-level-up fa-flip-horizontal" aria-hidden="true"></i>
+  </div>
+</a>
 
-  <div id="navbar">
-    <!-- MOBILE MENU  -->
-    <div class="nav-mobile">
-      <div>
-        <a href="index.html">
-          <img src="img/logo.png" alt="Logo" class="logo">
-        </a>
-      </div>
+<div id="navbar">
+  <!-- MOBILE MENU  -->
+  <div class="nav-mobile">
+    <div>
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <div id="title">
+      Le Sport pour Tous
+    </div>
+    <div>
+      <a href="javascript:void(0);">
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+      </a>
+    </div>
+  </div>
+  <div id="mobile-menu" class="open">
+    <ul>
+      <li class="mobile-menu underline">
+        <a href="sport-coaching.html">Coaching sportif</a>
+      </li>
+      <li class="mobile-menu underline">
+        <a href="climb-coaching.html">Coaching escalade</a>
+      </li>
+      <li class="mobile-menu">
+        <a href="route-setting.html">Ouverture de voie <span class="and">&</span> bloc</a>
+      </li>
+    </ul>
+  </div>
+  <!-- STANDARD MENU -->
+  <div class="medium-nav">
+    <div>
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo" id="logorise">
+      </a>
+    </div>
+    <div class="med-menu">
       <div id="title">
         Le Sport pour Tous
       </div>
-      <div>
-        <a href="javascript:void(0);">
-          <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
-        </a>
+      <div class="menu-links">
+        <a href="sport-coaching.html">Coaching sportif</a>&bull;
+        <a href="climb-coaching.html">Coaching escalade</a>&bull;
+        <a href="route-setting.html">Ouverture de voies <span class="and">&</span> bloc</a>
       </div>
-    </div>
-    <div id="mobile-menu" class="open">
-      <ul>
-        <li class="mobile-menu underline">
-          <a href="sport-coaching.html">Coaching sportif</a>
-        </li>
-        <li class="mobile-menu underline">
-          <a href="climb-coaching.html">Coaching escalade</a>
-        </li>
-        <li class="mobile-menu">
-          <a href="route-setting.html">Ouverture de voie <span class="and">&</span> bloc</a>
-        </li>
-      </ul>
-    </div>
-    <!-- STANDARD MENU -->
-    <div class="medium-nav">
       <div>
-        <a href="index.html">
-          <img src="img/logo.png" alt="Logo" id="logorise">
-        </a>
-      </div>
-      <div class="med-menu">
-        <div id="title">
-          Le Sport pour Tous
-        </div>
-        <div class="menu-links">
-          <a href="sport-coaching.html">Coaching sportif</a>&bull;
-          <a href="climb-coaching.html">Coaching escalade</a>&bull;
-          <a href="route-setting.html">Ouverture de voies <span class="and">&</span> bloc</a>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </div>
+        <a href="https://www.facebook.com/kevinfiette33"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/kevinfiette/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
+</div>
+
+<div id="banner" class="spcoach-banner" style="background: linear-gradient(-225deg, rgba(48, 67, 82, 0.6) 0%, rgba(31, 28, 24, 0.3) 50%), url(img/pexels-photo-414029.jpg) no-repeat center center;">
+</div>
+
+<div class="catchline">
+  Coaching Sportif à Bordeaux métropole
+</div>
+
+<div class="lines left-line1"></div>
+<div class="lines right-line1"></div>
   
-  <div id="banner" class="spcoach-banner" style="background: linear-gradient(-225deg, rgba(48, 67, 82, 0.6) 0%, rgba(31, 28, 24, 0.3) 50%), url(img/pexels-photo-414029.jpg) no-repeat center center;">
+<div id="scwrapper">
+  <div id="sap">
+    <h1>Service à la personne : bénéficiez d'une réduction de 50% sur nos tarifs !</h1>
+    <div class="sap_details">
+      <img src="img/logo_sap.jpg" alt="Service à la personne">
+      <div>
+        <p>
+          Si vous êtes imposable, vous pouvez bénéficier de <strong>50% de réduction d'impôt</strong> sur les heures de 
+          coaching à domicile effectuées.
+        </p>
+        <p>
+          <em>
+            Exemple : vous payez 600 € de cours sur une année civile, vous aurez droit l'année suivante à une réduction 
+            de 300 € sur votre impôt.
+          </em>
+        </p>
+        <br>
+        <p class="sp-link">
+          <a target="blank_" href="https://www.entreprises.gouv.fr/services-a-la-personne/fiscalite-avantages-fiscaux-et-sociaux-des-services-a-la-personne">
+            Plus d'infos sur les avantages fiscaux et sociaux pour les particuliers.
+          </a>
+        </p>
+      </div>
+    </div>
   </div>
 
-  <div class="catchline">
-    Coaching Sportif à Bordeaux métropole
-  </div>
-
-  <div class="lines left-line1"></div>
   <div class="lines right-line1"></div>
 
-  <div class="wrapper">
-
+  <div id="goals">
+    <img src="img/runner-laces.jpg" alt="Runner laces">
+    <h2>Tarifs dégraissifs !</h2>
+    <p>Objectif : 1 À 3 MOIS : 250 €/mois</p>
+    <p>Objectif : 4 À 6 MOIS : 185 €/mois</p>
+    <p>Objectif : 7 À 12 MOIS : 165 €/mois</p>
   </div>
+</div>
 
-  <div id="footer">
-    <span>Copyright©2017 Le Sport Pour Tous | Site Web by <a class="websebs" href="https://github.com/SebCarnelos" target="blank_">WebSebs</a></span>
-    <span class="legal">
-      <a href="copy.html">Mentions légales</a><span class="pipe"> | </span>
-      <a href="bug.html">Signaler un bug</a>
-    </span>
-  </div>
+<div class="lines right-line1"></div>
+
+<div id="footer">
+  <span>Copyright©2017 Le Sport Pour Tous | Site Web by <a class="websebs" href="https://github.com/SebCarnelos" target="blank_">WebSebs</a></span>
+  <span class="legal">
+    <a href="copy.html">Mentions légales</a><span class="pipe"> | </span>
+    <a href="bug.html">Signaler un bug</a>
+  </span>
+</div>
 </body>
 </html>

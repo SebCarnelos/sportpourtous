@@ -1,0 +1,50 @@
+#scwrapper {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#sap {
+    margin: 20px;
+}
+
+#sap h1 {
+    text-align: center;
+}
+
+.sap_details img {
+    height: 200px;
+    margin: 0 20px;
+}
+
+.sp-link {
+    text-align: center;
+}
+
+.sp-link a {
+    color: #126131;
+}
+
+.sp-link a:hover {
+    text-decoration: none;
+}
+
+.right-line1 {
+    margin-bottom: 50px;
+}
+
+/* Mobile */
+@media all and (max-width: 719px) {
+    .sap_details img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+/* Desktop */
+@media all and (min-width: 720px) {
+    .sap_details {
+        display: flex;
+        justify-content: space-around;
+    }
+}
