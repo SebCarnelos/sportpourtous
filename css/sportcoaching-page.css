@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+#sc-intro {
+    color: #000103;
+    text-align: center;
+    margin: 0 20px;
+}
+
 #sap {
     margin: 20px;
 }
