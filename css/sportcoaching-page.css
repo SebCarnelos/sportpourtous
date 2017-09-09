@@ -166,6 +166,10 @@
     font-size: 1.2em;
 }
 
+.sclines {
+    margin: 20px 0;
+}
+
 /* Mobile */
 @media all and (max-width: 1099px) {
     .mob-hide {
