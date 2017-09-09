@@ -138,8 +138,22 @@
     text-decoration: none;
 }
 
+.content-img {
+    background: url(../img/foodiesfeed.com_making-healthy-smoothie.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.content-text ul {
+    line-height: 1.5;
+    margin: 40px 10px;
+}
+
 /* Mobile */
 @media all and (max-width: 1099px) {
+    .mob-hide {
+        display: none;
+    }
+
     .sap_details img {
         display:block;
         margin-left:auto;
@@ -159,6 +173,10 @@
 
 /* Desktop */
 @media all and (min-width: 1100px) {
+    .desk-hide {
+        display: none;
+    }
+
     .sap_details {
         display: flex;
         justify-content: space-around;
@@ -198,7 +216,7 @@
     }
     
     .sc-session-prices {
-        margin-top: 40px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
     }
@@ -206,5 +224,19 @@
     .session-img {
         height: 500px;
         width: 50%;
+    }
+
+    #sc-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-img {
+        height: 500px;
+        width: 60%; 
+    }
+
+    .content-text {
+        width: 40%;
     }
 }
