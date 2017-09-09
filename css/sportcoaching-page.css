@@ -93,7 +93,12 @@
 }
 
 .lowtax {
-    font-size: 0.7em;    
+    font-size: 0.7em;  
+}
+
+.lowtax a {
+    color: #000103;
+    text-decoration: none;
 }
 
 /* Mobile */
