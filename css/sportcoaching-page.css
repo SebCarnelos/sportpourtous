@@ -143,17 +143,12 @@
     background-size: cover;
 }
 
-.content-text ul {
-    line-height: 1.5;
-    margin: 40px 10px;
-}
-
 /* Mobile */
 @media all and (max-width: 1099px) {
     .mob-hide {
         display: none;
     }
-
+    
     .sap_details img {
         display:block;
         margin-left:auto;
@@ -169,6 +164,11 @@
         flex-direction: column;
         align-items: center;
     }
+    
+    .content-text ul {
+        line-height: 1.5;
+        margin: 40px 10px;
+    }
 }
 
 /* Desktop */
@@ -176,33 +176,33 @@
     .desk-hide {
         display: none;
     }
-
+    
     .sap_details {
         display: flex;
         justify-content: space-around;
     }
-
+    
     #goals-section {
         display: flex;
         justify-content: space-between;
     }
-
+    
     .goal-img {
         height: 500px;
         width: 35%;
     }
-
+    
     .goals-text {
         width: 65%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        }
-
+    }
+    
     .goals {
         display: flex;
     }
-
+    
     #sc-session-price {
         display: flex;
         justify-content: space-between;
@@ -225,18 +225,22 @@
         height: 500px;
         width: 50%;
     }
-
+    
     #sc-content {
         display: flex;
         justify-content: space-between;
     }
-
+    
     .content-img {
         height: 500px;
         width: 60%; 
     }
-
+    
     .content-text {
         width: 40%;
+    }
+    
+    .content-text ul {
+        line-height: 3.5;
     }
 }
