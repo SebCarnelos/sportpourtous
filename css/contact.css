@@ -102,6 +102,11 @@ textarea.form {
     justify-content: space-around;
 }
 
+#contact-me h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
 /* Mobile */
 @media all and (max-width: 997px) {
     .contact-list {
