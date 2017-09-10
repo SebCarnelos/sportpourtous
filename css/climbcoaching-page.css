@@ -1,0 +1,35 @@
+.climb-benefit {
+    background: url(../img/climbing-1358470_1280.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.climb-offer {
+    text-transform: uppercase;
+}
+
+.climb-offer-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+/* Mobile */
+@media all and (max-width: 1099px) {
+}
+
+/* Desktop */
+@media all and (min-width: 1100px) {
+    .climb-benefit {
+        height: 500px;
+        width: 60%;
+    }
+
+    .climb-offer {
+        margin-top: 100px;
+    }
+
+    .climb-offer-text {
+        margin-top: 40px;
+        line-height: 3;
+    }
+}
