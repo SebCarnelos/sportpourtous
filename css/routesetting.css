@@ -1,0 +1,13 @@
+.rs-intro a {
+    color: #126131;
+}
+
+.rs-intro a:hover {
+    color: #40ae49;
+    text-decoration: none;
+}
+
+/* Desktop */
+@media all and (min-width: 1100px) {
+
+}
