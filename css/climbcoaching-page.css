@@ -13,6 +13,21 @@
     font-size: 1.3em;
 }
 
+.climb-group {
+    background: url(../img/pexels-photo-419292.jpeg) no-repeat center; 
+    background-size: cover;
+}
+
+.climb-group-text {
+    padding: 0 20px;
+}
+
+.climb-group-text p:last-child {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
 /* Mobile */
 @media all and (max-width: 1099px) {
 }
@@ -31,5 +46,22 @@
     .climb-offer-text {
         margin-top: 40px;
         line-height: 3;
+    }
+    
+    .climb-group {
+        height: 500px;
+        width: 50%;
+    }
+    
+    .climb-group-text {
+        width: 50%;
+    }
+
+    .climb-group-text h2 {
+        margin: 50px 0;
+    }
+
+    .climb-group-text p:last-child {
+        margin-top: 50px;
     }
 }
