@@ -7,7 +7,24 @@
     text-decoration: none;
 }
 
+.rs-offer {
+    background: url(../img/dsc_0396.jpg) no-repeat center; 
+    background-size: cover;
+}
+
 /* Desktop */
 @media all and (min-width: 1100px) {
+    .rs-offer {
+        height: 500px;
+        width: 60%;
+    }
 
+    .rs-offer-text {
+        margin-right: 10px;
+        width: 40%;
+    }
+
+    .rs-offer-text ul {
+        margin-left: 50px;
+    }
 }
