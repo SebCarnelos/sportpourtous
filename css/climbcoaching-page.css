@@ -27,9 +27,24 @@
     font-size: 1.2em;
 }
 
+.offers-img {
+    background: url(../img/18882310_1404317339653100_1368706232376050177_n.jpg) no-repeat center; 
+    background-size: cover;
+}
 
-/* Mobile */
-@media all and (max-width: 1099px) {
+.climb-offers {
+    padding: 0 20px;
+}
+
+.offers-price {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.climb-offers h3 {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Desktop */
@@ -63,5 +78,10 @@
 
     .climb-group-text p:last-child {
         margin-top: 50px;
+    }
+
+    .offers-img {
+        height: 568px;
+        width: 47%;
     }
 }
