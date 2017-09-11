@@ -30,6 +30,16 @@
     font-size: 0.9em;
 }
 
+/* Mobile */
+@media all and (max-width: 1099px) {
+    .clients {
+        line-height: 0.5;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 /* Desktop */
 @media all and (min-width: 1100px) {
     .rs-offer {
@@ -54,5 +64,16 @@
     .rs-price-text {
         line-height: 3;
         margin-top: 80px;
+    }
+
+    .clients-all {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clients {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
     }
 }
