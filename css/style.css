@@ -33,6 +33,16 @@ body {
 	cursor: pointer; cursor: hand;
 }
 
+#title {
+	font-family: 'Impact', sans-serif;
+	text-transform: uppercase;
+}
+
+#title a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 .catchline {
 	padding: 25px 10px;
 	background-color: #FFFFFA;
