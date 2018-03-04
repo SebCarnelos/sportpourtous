@@ -15,6 +15,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
   <script src="javascript/scripts.js"></script>
+  <script>
+    if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol == "http:"))
+        window.location.protocol = "https";
+    </script>
 </head>
 <body>
 <a onclick="scrollToTop();return false">
