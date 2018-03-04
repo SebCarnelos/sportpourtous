@@ -33,7 +33,6 @@
 /* Mobile */
 @media all and (max-width: 1099px) {
     .clients {
-        line-height: 0.5;
         margin-top: 50px;
         display: flex;
         justify-content: space-around;
@@ -69,6 +68,7 @@
     .clients-all {
         display: flex;
         justify-content: space-around;
+        margin: 40px 0 40px 0;
     }
 
     .clients {
