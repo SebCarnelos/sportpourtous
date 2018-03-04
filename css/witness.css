@@ -31,8 +31,8 @@
  }
  
 .wit-slideshow ul {
-    /* 3 images donc 3 x 100% */
-    width: 300%;
+    /* 6 slides => 6 x 100% */
+    width: 600%;
     padding:0; margin:0;
     list-style: none;
 }
