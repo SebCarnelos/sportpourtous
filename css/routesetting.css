@@ -30,6 +30,43 @@
     font-size: 0.9em;
 }
 
+#counter {
+    height: 80vh;
+    padding: 20px 30px;
+    background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../img/28768142_1677596075658557_1437857124_o.jpg) no-repeat center fixed; 
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.counter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.count-numbers {
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 0;
+}
+
+.roots-number {
+    color: chartreuse;
+}
+
+.boulder-number {
+    color: gold;
+}
+
+#counter ul {
+    width: 360px;
+    text-align: left;
+    line-height: 1.8;
+    margin: auto;
+}
+
 /* Mobile */
 @media all and (max-width: 1099px) {
     .clients {
